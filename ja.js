@@ -1,8 +1,6 @@
 // Stats. How long in current status
-// maybe user stats?
-
-// after I do a push, I want to be taken to github create a pull request.
-// what I would really like to do is create a pull request from the CLI (but now I'm in github land instead of jira)
+// maybe user stats? that will need other customizations
+// would love an Age
 function main(){
   var patt = new RegExp("[A-Za-z]+-[0-9]+");
   if (process.argv[2]) {
@@ -115,7 +113,7 @@ function callJira(issueNumber){
 
 }
 var fs = require('fs');
-var data = fs.readFileSync(__dirname+'/config.json'),
+var data = fs.readFileSync(__dirname+'/config/config.json'),
     configObj;
 try {
   configObj = JSON.parse(data);
