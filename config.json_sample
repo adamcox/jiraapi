@@ -1,0 +1,21 @@
+{
+"_config":"config file for Jira CLI.",
+"config":{
+  "server":"jira.impdir.com",
+  "authToken":""
+},
+"customize": [
+  {
+    "name":"Summary",
+    "location": "description"
+  },
+  {
+    "name":"Status",
+    "location": "status.name"
+  },
+  {
+    "name":"Assignee",
+    "location":"assignee.displayName"
+  }
+]
+}

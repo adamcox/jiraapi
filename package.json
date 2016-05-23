@@ -1,0 +1,20 @@
+#prompt
+#colors/safe
+{
+    "name": "jiraapi",
+    "version": "0.0.1",
+    "private": false,
+    "description": "access jira to provide quick output of info in the terminal",
+    "main": "ja.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/adamcox/jiraapi.git"
+    },
+    "dependancies":{
+      "prompt":"^1.0.0",
+      "colors":"^1.1.2"
+    }
+
+
+
+}
